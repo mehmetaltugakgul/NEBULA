@@ -1,6 +1,6 @@
 # N E B U L A
 
-**N E B U L A** is a desktop security scanner for local source code and project metadata. It runs as an **Electron** application, performs **offline-first** analysis (with optional online **npm audit**), and presents findings in a structured UI with exports suitable for teams and CI-style workflows.
+**N E B U L A** is a desktop security scanner for local source code and project metadata. Performs **offline-first** analysis (with optional online **npm audit**), and presents findings in a structured UI with exports suitable for teams and CI-style workflows.
 
 This document is a **handbook**: it explains what the tool does, how to configure it, and how each feature fits together.
 
