@@ -58,43 +58,9 @@ The exact set of phases and options depends on [project configuration](#project-
 
 ---
 
-## Requirements
-
-- **Node.js** (LTS recommended) for development and scripts  
-- **npm** (or compatible) for dependencies  
-- **Electron** (pulled in as a dev dependency for running and packaging)
-
----
-
-## Installation & running
-
-From the repository root:
-
-```bash
-npm install
-npm start
-```
-
-This launches the Electron shell and loads the renderer UI.
-
----
-
-## Building distributables
-
-Uses **electron-builder** (see `package.json` → `build`):
-
-```bash
-npm run pack    # unpacked directory under dist/
-npm run dist    # platform installers / bundles per electron-builder config
-```
-
-Bundled resources (e.g. offline advisory data under `data/`) are included per the `build` configuration.
-
----
-
 ## Quick start
 
-1. Start the app (`npm start`).
+1. Start the app
 2. **Select a project folder** (your repository root).
 3. Click **New scan** (or use the keyboard shortcut).
 4. Review the **dashboard** (health gauge, risk summary, priority hints).
